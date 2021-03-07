@@ -111,7 +111,7 @@ button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-mo
 }
 
 button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
-    outline: 1px dotted ButtonText
+    outline: 1px dotted ButtonText;
 }
 
 fieldset {
@@ -590,25 +590,6 @@ button.wide, .button.wide, a.button.wide {
     max-width: 100%
 }
 
-/* .theme-toggle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1;
-    cursor: pointer
-}
-
-.theme-toggler {
-    fill: currentColor
-} */
-
-/* .unselectable {
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none
-} */
-
 .logo {
     display: flex;
     align-items: center;
@@ -803,45 +784,6 @@ h4 {
     h4 {
         font-size: 1.125rem
     }
-    .responsive {
-        max-width: 500px;
-        width: 30%;
-        height: auto;
-    }
-    .responsive img {
-        max-width: 500px;
-        width: 30%;
-        max-height: 300px;
-        min-height: auto;
-    }
-}
-@media (max-width: 500px) {
-    .responsive {
-        max-width: 500px;
-        width: 25px;
-        height: auto;
-    }
-    .responsive img {
-        max-width: 500px;
-        width: 25%;
-        max-height: 300px;
-        min-height: auto;
-    }
-}
-@media (max-width: 400px) {
-    .responsive {
-        max-width: 500px;
-        width: 15%;
-        height: auto;
-    }
-    .responsive img {
-        max-width: 500px;
-        width: 15%;
-        max-height: 300px;
-        min-height: auto;
-    }
-}
-@media (max-width: 300px) {
     .responsive {
         max-width: 500px;
         width: 30%;
@@ -1700,6 +1642,8 @@ blockquote {
 }
 
 .circle-profile {
-    height: 150px;
-    width: 150px;
+    height: auto;
+    width: auto;
+    max-height: 150px;
+    max-width: 150px;
 }
