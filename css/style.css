@@ -667,7 +667,7 @@ button.wide, .button.wide, a.button.wide {
 
 @media (max-width: 684px) {
     .menu {
-        position: absolute;
+        position: static;
         top: 50px;
         right: 0;
         border: none;
@@ -844,12 +844,12 @@ h4 {
 @media (max-width: 300px) {
     .responsive {
         max-width: 500px;
-        width: 10%;
+        width: 30%;
         height: auto;
     }
     .responsive img {
         max-width: 500px;
-        width: 10%;
+        width: 30%;
         max-height: 300px;
         min-height: auto;
     }
