@@ -1649,3 +1649,8 @@ blockquote {
     max-height: 150px;
     max-width: 150px;
 }
+
+.resumo{
+    padding: 5px 200px 5px 200px;
+    text-align: justify;
+}
