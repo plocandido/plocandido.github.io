@@ -761,7 +761,7 @@ h1 {
 
 h2 {
     font-size: 1.625rem;
-    margin-top: 2.5em
+    margin-top: 1em
 }
 
 h3 {
@@ -1652,5 +1652,9 @@ blockquote {
 
 .resumo{
     padding: 5px 200px 5px 200px;
+    text-align: justify;
+}
+
+.ptimeline{
     text-align: justify;
 }
