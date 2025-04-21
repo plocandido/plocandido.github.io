@@ -1,9 +1,10 @@
-/*
+---
+---
 
 @use 'main
-{%- if jekyll.environment == 'production' -%}
+{%- if jekyll.environment == ' production ' -%}
   .bundle
 {%- endif -%}
 ';
 
-/* append your custom style below */
+/*append your custom style below*/
